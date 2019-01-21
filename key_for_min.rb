@@ -3,6 +3,7 @@
 require 'pry'
 def key_for_min_value(name_hash)
   if name_hash = {}
+    binding.pry
     return nil
   else
       min_value = name_hash.first[1]
